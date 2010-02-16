@@ -373,6 +373,12 @@
 			<string>\b([a-zA-Z_?.$][\w?.$]*)\s*:</string>
 		</dict>
 		<dict>
+			<key>match</key>
+			<string>\b[A-Z]\w*\b</string>
+			<key>name</key>
+			<string>variable.other.constant.js</string>
+		</dict>
+		<dict>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
