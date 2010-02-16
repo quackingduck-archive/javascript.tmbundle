@@ -364,6 +364,20 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
+					<string>entity.name.property.js</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>match stuff like: foobar:</string>
+			<key>match</key>
+			<string>\b([a-zA-Z_?.$][\w?.$]*)\s*:</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
 					<string>keyword.operator.new.js</string>
 				</dict>
 				<key>2</key>
