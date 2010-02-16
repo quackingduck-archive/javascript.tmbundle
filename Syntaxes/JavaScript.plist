@@ -370,7 +370,7 @@
 			<key>comment</key>
 			<string>match stuff like: foobar:</string>
 			<key>match</key>
-			<string>\b([a-zA-Z_?.$][\w?.$]*)\s*:</string>
+			<string>\b([a-zA-Z_?.$][\w?.$]*)\:</string>
 		</dict>
 		<dict>
 			<key>match</key>
